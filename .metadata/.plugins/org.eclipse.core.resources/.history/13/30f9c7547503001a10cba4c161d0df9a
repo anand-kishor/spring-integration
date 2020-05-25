@@ -1,0 +1,13 @@
+package com.example.stream.kafka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudStreamApacheKafkaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudStreamApacheKafkaApplication.class, args);
+	}
+
+}

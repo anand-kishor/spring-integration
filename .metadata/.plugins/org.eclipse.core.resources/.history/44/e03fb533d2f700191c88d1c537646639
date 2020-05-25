@@ -1,0 +1,12 @@
+package com.sun.messaging;
+
+import com.jms.anand.chap.one.QueueConnection;
+
+public class QueueConnectionFactory {
+
+	public QueueConnection createQueueConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

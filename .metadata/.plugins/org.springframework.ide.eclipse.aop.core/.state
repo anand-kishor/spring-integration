@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="example-8-filter-spring-integration3"/>
+<aop-project name="eureka-server"/>
+<aop-project name="nishant-6-header-value-router-spring-integration"/>
+<aop-project name="example-7-header-value-router-spring-integration2"/>
+<aop-project name="student-service"/>
+<aop-project name="example-3-transformer-spring-integration"/>
+<aop-project name="cloud-config-server"/>
+<aop-project name="example-1-spring-integration"/>
+<aop-project name="spring-integration-file-adapter"/>
+<aop-project name="example-5-payload-router-spring-integration3"/>
+<aop-project name="example-6-receipient-list-router-spring-integration"/>
+<aop-project name="example-4-transformer-header-enricher-spring-integration2"/>
+<aop-project name="nishant-1-spring-integration"/>
+<aop-project name="nishant-5-custom-router-spring-integration3"/>
+</aop-reference-model>

@@ -1,0 +1,24 @@
+package com.example.stream.publisher;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.stream.annotation.EnableBinding;
+import org.springframework.cloud.stream.annotation.StreamListener;
+import org.springframework.cloud.stream.messaging.Sink;
+import org.springframework.cloud.stream.messaging.Source;
+import org.springframework.messaging.handler.annotation.Payload;
+import com.example.stream.publisher.model.Employee;
+@EnableBinding(Source.class)
+@SpringBootApplication
+public class SpringCloudStreamRabbitmqPublisherApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudStreamRabbitmqPublisherApplication.class, args);
+	}
+	
+	@StreamListener(Sink.INPUT)
+	public void handleMessage(@Payload Employee emp)
+	{
+		System.out.println("Employee : "+emp.toString());
+	}
+
+}

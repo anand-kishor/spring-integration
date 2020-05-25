@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;spring-cloud-stream-rabbitmq-publisher/src/main/java/com.example.stream.publisher.model&apos;&#x0D;&#x0A;- Original project: &apos;spring-cloud-stream-rabbitmq&apos;&#x0D;&#x0A;- Destination element: &apos;spring-cloud-stream-rabbitmq-publisher/src/main/java/com.example.stream.publisher.model&apos;&#x0D;&#x0A;- Original element: &apos;com.example.stream.model.Employee.java&apos;" description="Copy compilation unit" destination="=spring-cloud-stream-rabbitmq-publisher/src\/main\/java&lt;com.example.stream.publisher.model" element1="/src\/main\/java&lt;com.example.stream.model{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573237362158" units="1" version="1.0"/>
+</session>
